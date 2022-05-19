@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/pngwing.com.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Navigation header -->
+    <header>
+      <img src="./images/pngwing.com.png" alt="" />
+      <menu>
+        <ul>
+          <li><a href="">Home</a></li>
+          <li><a href="">Menu</a></li>
+          <li><a href="">Offer</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </menu>
+    </header>
+    <!-- content for the web page -->
+    <div class="content">
+      <div class="left " data-tilt>
+        <img class="js-tilt" src="./images/3.png" alt="" />
+      </div>
+      <div class="right">
+        <h1>Chessy & Spicy <br />Pizza</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
+          officia accusamus. Aliquid qui sunt illo officiis nostrum fuga rerum
+          dolor ducimus. Culpa, numquam quod aliquid animi minima temporibus
+          totam maxime.
+        </p>
+        <a href="" class="js-tilt" data-tilt>ORDER NOW</a>
+      </div>
+      <div class="square"></div>
+      <div class="dot"><img src="./images/Group-29.png" alt="" /></div>
+      <div class="scroll-down js-tilt">
+        <hr />
+        Scroll-Down
+        <hr />
+      </div>
+    </div>
+
+    <script type="text/javascript" src="./scripts/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="./scripts/Vanilla-tilt.js"></script>
+    <script type="text/javascript">
+      document.title = "home page to bon appetit pizza";
+      $(".js-tilt").tilt({
+        glare: true,
+        maxGlare: 0.5,
+        scale: 1.1
+      });
+    </script>
+  </body>
+</html>
